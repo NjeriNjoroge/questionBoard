@@ -1,6 +1,17 @@
-<h3>More information on</h3>
+<h3>More information on - "{{model.swali}}"</h3>
 {{update-question question=model update="update"}}
 
-{{question-tile question=model}}
+{{question-tile question-detail question=model}}
+Notes: {{model.notes}}
 
-{{question.answer}}
+
+{{new-answer saveAnswer="saveAnswer" question=model}}
+
+<h2>Answers</h2>
+<ul>
+{{#each model.answers as |answer|}}
+<li>
+  {{answer.content}} - by {{answer.author}}
+</li>
+{{/each}}
+</ul>
