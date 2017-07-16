@@ -1,7 +1,6 @@
-<li>{{question.swali}} - by {{question.author}}
-  {{update-question question=question update="update"}}
-
+<li>
+  {{#link-to 'question' question.id}}{{question.swali}}
+  - by {{question.author}}
+  {{/link-to}}
 </li>
-{{question.answer}}
-
-{{outlet}}
+Notes: {{question.notes}}
