@@ -3,8 +3,7 @@
 
 <ul>
   {{#each model as |question|}}
-  <li>{{question.swali}} - by {{question.author}}</li>
-  {{question.answer}}
+  {{question-tile question=question update="update"}}
   {{/each}}
 </ul>
 
