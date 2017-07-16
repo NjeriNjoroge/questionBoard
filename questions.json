@@ -17,5 +17,14 @@
   "answer": "Mwai Kibaki",
   "author": "IEBC",
   "notes": "horrible times"
-  }]
+  }],
+
+  "answers": [{
+    "author": "grace",
+    "content": "Kenyatta"
+  }, {
+    "author": "tom",
+    "content": "US embassy"
+  
+    }]
 }

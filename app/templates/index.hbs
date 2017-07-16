@@ -2,9 +2,18 @@
 <p>Find answers to your questions</p>
 
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
   {{question-tile question=question}}
   {{/each}}
+</ul>
+
+<h2>Answers</h2>
+<ul>
+{{#each model.answers as |answer|}}
+<li>
+  {{answer.content}} - by {{answer.author}}
+</li>
+{{/each}}
 </ul>
 
 {{ask-question saveQuestion2="saveQuestion3"}}
