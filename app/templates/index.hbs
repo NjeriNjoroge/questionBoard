@@ -1,14 +1,9 @@
-<h1>Uliza Ujibiwe</h1>
-<p>Find answers to your questions</p>
-
-<ul>
-  {{#each model.questions as |question|}}
-  {{question-tile question=question}}
-  {{/each}}
-</ul>
-
-
-
-
-
-{{ask-question saveQuestion2="saveQuestion3"}}
+<div class="container">
+  <p class="id1">Question Board</p>
+  <ul>
+    {{#each model.questions as |question|}}
+    {{question-tile question=question}}
+    {{/each}}
+  </ul>
+  {{ask-question saveQuestion2="saveQuestion3"}}
+</div>

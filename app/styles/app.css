@@ -1,3 +1,30 @@
-h1{
-  margin-top: 50%;
+.jumbotron{
+  color: #661959;
+  text-align: center;
+  background-color:transparent !important;
+}
+
+.fa.fa-home{
+  font-size: 20px;
+}
+
+hr{
+  font: 4px;
+  padding: 1px;
+  border: none;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(173, 35, 35, 0.75), rgba(0, 0, 0, 0));
+
+}
+
+body{
+  background: #EFEFBB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.id1{
+  font-size: 50px;
 }

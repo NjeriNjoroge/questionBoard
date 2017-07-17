@@ -22,9 +22,9 @@
       <label for="answer">Answer</label>
       {{input value=answer id="answer"}}
     </div>
-    <button {{action 'saveQuestion1'}}>Post</button>
+    <button {{action 'saveQuestion1'}} class="btn btn-default">Post</button>
   </form>
 </div>
 {{else}}
-<button {{action 'askFormShow'}}>Ask a question</button>
+<button {{action 'askFormShow'}} class="btn btn-success">Ask a question</button>
 {{/if}}
